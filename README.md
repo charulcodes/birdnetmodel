@@ -5,8 +5,7 @@ This project uses a CNN to identify the species of bird by passing its image as 
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) 
 to various aspects/objects in the image and be able to differentiate one from the other.
 
-The CNN model is implemented using **[Tensorflow with Keras](https://www.tensorflow.org/)
-**.
+The CNN model is implemented using **[Tensorflow with Keras](https://www.tensorflow.org/)**.
 
 The model was made by fine-tuning the MobileNet model (https://arxiv.org/abs/1704.04861) over a dataset of around 17,000 images. \
 The dataset was split into training, validation, and testing sets in an 80:10:10 ratio. 80% images (14095) images were used for training, 10% (1677) images were used for validation and 10% (1695) images were used for testing. \
